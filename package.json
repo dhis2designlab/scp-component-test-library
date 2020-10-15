@@ -1,6 +1,6 @@
 {
   "name": "scp-component-test-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component library for testing out DHIS2 Component Search functionality",
   "main": "index.js",
   "scripts": {
