@@ -1,0 +1,56 @@
+{
+  "name": "scp-component-test-library",
+  "version": "1.0.0",
+  "description": "A component library for testing out DHIS2 Component Search functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haheskja/scp-component-test-library.git"
+  },
+  "keywords": [
+    "dhis2-component-search"
+  ],
+  "author": "h.heskja@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haheskja/scp-component-test-library/issues"
+  },
+  "homepage": "https://github.com/haheskja/scp-component-test-library#readme",
+  "dependencies": {
+    "@dhis2/app-runtime": "^2.4.0",
+    "react": "^16.14.0"
+  },
+  "dhis2-component-search": {
+    "language": "react",
+    "components": [
+        {
+            "name": "OrgUnit Tree",
+            "description": "A simple OrgUnit Tree",
+            "dhis2-version": [ "32.0.0", "32.1.0", "33.0.0" ]
+        },
+        {
+            "name": "Button",
+            "description": "A generic button",
+            "dhis2-version": [ "32.0.0", "32.1.0", "33.0.0" ]
+        },
+        {
+            "name": "Covid-19 Visualizer",
+            "description": "Visualizer for Covid-19 data",
+            "dhis2-version": [ "32.0.0", "32.1.0", "33.0.0" ]
+        },
+        {
+            "name": "Headerbar",
+            "description": "Just another header bar",
+            "dhis2-version": [ "32.0.0", "32.1.0", "33.0.0" ]
+        },
+        {
+            "name": "Tabs",
+            "description": "Tabs to structure data",
+            "dhis2-version": [ "32.0.0", "32.1.0", "33.0.0" ]
+        },
+    ]
+  }
+}
