@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haheskja/scp-component-test-library.git"
+    "url": "git+https://github.com/dhis2designlab/scp-component-test-library.git"
   },
   "keywords": [
     "dhis2-component-search"
@@ -16,9 +16,9 @@
   "author": "h.heskja@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haheskja/scp-component-test-library/issues"
+    "url": "https://github.com/dhis2designlab/scp-component-test-library/issues"
   },
-  "homepage": "https://github.com/haheskja/scp-component-test-library#readme",
+  "homepage": "https://github.com/dhis2designlab/scp-component-test-library#readme",
   "dependencies": {
     "@dhis2/app-runtime": "^2.4.0",
     "react": "^16.14.0"
